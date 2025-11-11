@@ -1,0 +1,224 @@
+/* --- ESTILOS GENERALES --- */
+body {
+    background-image: url('assets/img/fondopan.jpg');
+    background-size: cover;
+    /* ajusta la imagen al tamaño de la pantalla */
+    background-position: center;
+    /* centra la imagen */
+    background-repeat: no-repeat;
+    /* evita que se repita */
+    background-attachment: fixed;
+    /* el fondo no se mueve al hacer scroll */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #FDFBF5;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    min-height: 70vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --- ENCABEZADO Y NAVEGACIÓN --- */
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    width: 120px;
+}
+
+.navigation a {
+    color: #4F4323;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: #4F4323;
+    color: #fff;
+}
+
+/* --- SECCIÓN HERO (PORTADA) --- */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F8F3E9;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #4F4323;
+}
+
+/* --- FORMULARIO --- */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form h2 {
+    color: #4F4323;
+    margin-top: 0;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    width: 95%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #72623A;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4F4323;
+}
+
+/* --- PÁGINAS DE CONTENIDO --- */
+.contenido {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.contenido h2 {
+    color: #4F4323;
+}
+
+.contenido ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contenido li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #4F4323;
+    color: #fff;
+}
+
+/* --- MENSAJES DE ALERTA --- */
+.ok {
+    text-align: center;
+    width: 95%;
+    padding: 12px;
+    background-color: #a5d6a7;
+    color: #1b5e20;
+    margin: 15px auto 0;
+    border-radius: 4px;
+}
+
+.bad {
+    text-align: center;
+    width: 95%;
+    padding: 12px;
+    background-color: #ef9a9a;
+    color: #c62828;
+    margin: 15px auto 0;
+    border-radius: 4px;
+}
+
+/* --- facturas y pqr --- */
+.formulario-contacto {
+    background: #fff;
+    margin: 40px auto;
+    padding: 25px;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.formulario-contacto h3 {
+    color: #c27b2d;
+    margin-bottom: 15px;
+}
+
+.formulario-contacto p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: #c27b2d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #a86820;
+}
